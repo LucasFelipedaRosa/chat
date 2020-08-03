@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>SOCKET.io</h1>
+<script src="http://localhost:3000/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<div id="msg"></div>
+<script>
+    const socket = io.connect('http://localhost:3000');
+    socket.on('connect', function (){
+        $("#msg").append('connected whit id: '+socket.id+'<br>');
+        socket.emit('msg', 'I am connected ' +socket.id);
+    })
+    socket.on('msg', function(msg){
+      $("#msgs").append(msg+'<br>');
+    })
+</script>
+</body>
+</html>
