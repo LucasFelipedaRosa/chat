@@ -36,7 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.0.27" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projeto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
@@ -51,7 +51,10 @@
       <updated>1596476167998</updated>
       <workItem from="1596476169048" duration="3449000" />
       <workItem from="1596479980017" duration="5101000" />
-      <workItem from="1596565670463" duration="9216000" />
+      <workItem from="1596565670463" duration="9340000" />
+      <workItem from="1596653553237" duration="3251000" />
+      <workItem from="1596993861396" duration="3247000" />
+      <workItem from="1597868164043" duration="22000" />
     </task>
     <servers />
   </component>
@@ -59,9 +62,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596572647356">
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1596654165971">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1596572647356" />
+    <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1596654165971" />
+    <state x="72" y="27" width="620" height="741" key="find.popup" timestamp="1596994763114">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="27" width="620" height="741" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1596994763114" />
   </component>
 </project>
